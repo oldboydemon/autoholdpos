@@ -20,7 +20,7 @@ Clicking the gear at the bottom right will open a settings window. Here you will
 
 **Release Delay in ms** - On testing, I found a minor issue where the hold key would seemingly be released before an ability key has finished inputting, causing the character to slightly move before performing the ability. Adding a delay for the hold position key to be released can offset this effect. Though, adding a high delay will make the hold position key be held down for longer and may interfere with any following ability inputs that aren't set to be auto held. You may have to tweak this to find your personal sweet spot, or you can set it to 0 for no delay.
 
-These settings (along with you bindings) will be saved each time you close the program. The save location can be found at C:\Users\*YOURUSERNAME*\AppData\Roaming\AutoHoldPos\cfg.json
+These settings (along with your bindings) will be saved each time you close the program. The save location can be found at C:\Users\*YOURUSERNAME*\AppData\Roaming\AutoHoldPos\cfg.json
 If you have any issues with the config file, you can delete it, and AutoHoldPos will generate a new one the next time it closes.
 
 # WARNING
