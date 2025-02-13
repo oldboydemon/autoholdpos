@@ -10,11 +10,15 @@ There are six checkboxes, one for each ability. Checking any of these will enabl
 ## Settings
 Clicking the gear at the bottom right will open a settings window. Here you will find 5 settings.
 
-** Start Minimized ** - Exactly what it sounds like. Upon next starting the program, it will start minimized in the system tray.
-** Start Enabled ** - Upon next starting the program, the main functionality will be enabled already.
-** Mute 'Enable/Disable' Sound ** - When enabling/disabling the main functionality, you will hear a sound that lets you know it has been enabled/disabled. If you find this annoying, you can tick this option to turn it off.
-** Check if Game Window is in Focus ** - This will tell the main functionality to only work if the Diablo IV game window is the currently focused window. This can help prevent unintended inputs in other windows if you like to alt-tab a lot.
-** Release Delay in ms ** - On testing, I found a minor issue where the hold key would seemingly be released before an ability key has finished inputting, causing the character to slightly move before performing the ability. Adding a delay for the hold position key to be released can offset this effect. Though, adding a high delay will make the hold position key be held down for longer and may interfere with any following ability inputs that aren't set to be auto held. You may have to tweak this to find your personal sweet spot, or you can set it to 0 for no delay.
+**Start Minimized** - Exactly what it sounds like. Upon next starting the program, it will start minimized in the system tray.
+
+**Start Enabled** - Upon next starting the program, the main functionality will be enabled already.
+
+**Mute 'Enable/Disable' Sound** - When enabling/disabling the main functionality, you will hear a sound that lets you know it has been enabled/disabled. If you find this annoying, you can tick this option to turn it off.
+
+**Check if Game Window is in Focus** - This will tell the main functionality to only work if the Diablo IV game window is the currently focused window. This can help prevent unintended inputs in other windows if you like to alt-tab a lot.
+
+**Release Delay in ms** - On testing, I found a minor issue where the hold key would seemingly be released before an ability key has finished inputting, causing the character to slightly move before performing the ability. Adding a delay for the hold position key to be released can offset this effect. Though, adding a high delay will make the hold position key be held down for longer and may interfere with any following ability inputs that aren't set to be auto held. You may have to tweak this to find your personal sweet spot, or you can set it to 0 for no delay.
 
 These settings (along with you bindings) will be saved each time you close the program. The save location can be found at C:\Users\*YOURUSERNAME*\AppData\Roaming\AutoHoldPos\cfg.json
 If you have any issues with the config file, you can delete it, and AutoHoldPos will generate a new one the next time it closes.
