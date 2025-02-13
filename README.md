@@ -8,7 +8,7 @@ I made this as a QoL program for myself when Diablo IV first released. I found i
 There are six checkboxes, one for each ability. Checking any of these will enable the hold position functionality for the relevant ability. This means once you enable the main functionality, you don't have to hold the hold position key when using that ability. To the right of each ability is a rebind button. You should rebind the ability keys and hold position key to match your in-game bindings if they aren't already. There is also an option to rebind the enable/disable key for your convenience. Minimizing the window will hide it to the system tray. There you can double click to restore the window, or right click for further options.
 
 ## Settings
-Clicking the gear at the bottom right will open a settings window. Here you will find 5 settings.
+Clicking the gear at the bottom right will open a settings window. Here you will find 5 settings:
 
 **Start Minimized** - Exactly what it sounds like. Upon next starting the program, it will start minimized in the system tray.
 
